@@ -6,7 +6,7 @@
 * { 
 	margin: 0;
 	padding: 0px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Libre Baskerville', sans-serif;
 } 
 body { 
 	background: #fff; 
@@ -87,7 +87,7 @@ a {
 	-o-transition: background-color .4s linear, color .4s linear;
 	-ms-transition: background-color .4s linear, color .4s linear;
 	transition: background-color .4s linear, color .4s linear;
-	color: #1abc9c;
+	color: #696E74;
 }
 a:hover,
 a:focus {
@@ -161,6 +161,7 @@ input {
     font-weight: 400;
 	color: black;
     letter-spacing: .3em;
+    text-transform: uppercase;
 }
 
 .hero-play-btn { 
@@ -203,17 +204,44 @@ input {
 	font-weight: 700;
 }
 
+/* CALL TO ACTION SECTION */
+
+#cta {
+	padding-bottom: 15px;
+	padding-top: 15px;
+	background: #2f2f2f;
+}
+
+#cta h5 {
+	color: #f2f2f2;
+	font-size: 1.25em;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    font-weight: 500;
+}
+
 /* BLACK SECTION */
 #blk {
 	background: white;
-	padding-bottom: 7em;
-	padding-top: 7em;
+	padding-bottom: 5em;
+	padding-top: 5em;
+}
+
+#blk h4 {
+	color: black;
+    font-size: 2em;
+    font-weight: 500;
+	letter-spacing: .3em;
+	text-transform: uppercase;
 }
 
 #blk h5 {
-	color: #f7ca18;
-	letter-spacing: 1px;
-	text-transform: uppercase;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    font-weight: 500;
+    color: black;
+    padding-top: .5em;
 }
 
 #blk hr {
@@ -221,20 +249,37 @@ input {
 	width: 100px;
 }
 
-/* Grey Section */
-#grey {
-	background: #f3f3f3;
-	padding-bottom: 80px;
-	padding-top: 80px;
+#blk p {
+    font-size: 1em;
+    text-align: justify;
+    padding-top: 2em;
 }
 
-.icon {
-	font-size: 40px;
+/* TESTIMONIALS */
+#y {
+	padding-bottom: 5em;
+	min-height: 10em;
+	background: #D8DBE2;
 }
 
-#grey h5 {
-	letter-spacing: 1px;
-	text-transform: uppercase;
+#y hr {
+	border: 1px solid #5a5a5a;
+	width: 100px;
+}
+
+#y p {
+    font-size: 1.25em;
+    padding-top: 2em;
+    color: black;
+}
+
+#y h5 {
+    font-size: .75em;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    font-weight: 500;
+    color: black;
+    padding-top: .5em;
 }
 
 /* Background Colors */
@@ -377,4 +422,20 @@ input {
 #f p {
 	color: white;
 	text-align: center;
+}
+
+/* CREDIT */
+#c {
+	background: white;
+	padding: 1em;
+}
+
+#c p {
+	color: black;
+	font-size: .75em;
+}
+
+/* OVERFLOW */
+.of {
+	overflow: hidden;
 }
