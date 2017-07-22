@@ -5,23 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Best Realtor in Calgary">
-    <meta name="author" content="Tim Aton">
-    <link rel="icon" href="assets/img/favicon.ico">
+    <meta name="author" content="Tim Volkman">
+    <link rel="icon" href="img/favicon.ico">
 
     <title>Tim Volkman Realty</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/ionicons.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/jquery.fancybox.css" rel="stylesheet">
+    <link href="css/ionicons.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.css" rel="stylesheet">
     
-	<script src="assets/js/modernizr.custom.js"></script>    
+	<script src="js/modernizr.custom.js"></script>    
     
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -49,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 centered">
-                    <h5>Let's Start a Conversation</h5>
+                    <a href="#form"><h5>Let's Start a Conversation</h5></a>
                 </div>
             </div><!--/row -->
         </div><!--/container -->
@@ -73,7 +73,7 @@
 		</div><!--/container-->
 	</div><!--/blk section -->
       
-    <!-- ********** TESTIMONIALS ********** -->
+    <!-- ********** TESTIMONIAL ********** -->
 	<div id="y">
 		<div class="container">
 			<div class="row mt">
@@ -82,9 +82,9 @@
 				    <div id="myCarousel" class="carousel slide" data-ride="carousel">
 				      <div class="carousel-inner">
 				        <div class="item active">
-				            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+				            <p>Tim was awesome - very honest and always available.  He was also very helpful after closing when a few problems came around.  I would not hesitate to use him again or refer him to all my friends!</p>
                             <hr class="aligncenter">
-                            <h5>Mark Turin</h5>
+                            <h5>Maybritt</h5>
 				        </div>
 				      </div>
 				    </div><!-- /.carousel -->
@@ -107,6 +107,81 @@
         </div><!--/row -->
       </div><!--/container -->
     </section><!--/NEWS -->
+      
+    <!-- ********** TESTIMONIAL ********** -->
+	<div id="y">
+		<div class="container">
+			<div class="row mt">
+				<div class="col-md-8 col-md-offset-2 centered">
+				    <!-- Carousel -->
+				    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+				      <div class="carousel-inner">
+				        <div class="item active">
+				            <p>Buying a home in such short order with a deadline is very stressful. Tim was amazing for us and did not make the process stressful at all. It was fun and we could not have asked for a nicer, more pleasant person to look after our needs. We are very happy and enjoying our new house more & more every day.</p>
+                            <hr class="aligncenter">
+                            <h5>Coral & Peter</h5>
+				        </div>
+				      </div>
+				    </div><!-- /.carousel -->
+				</div><!--/col-md-8 -->
+			</div><!--/row -->
+		</div><!--/container -->
+	</div><!--/Y -->
+      
+    <!-- ********** 3 ********** -->	
+	<div id="blk">
+		<div class="container">
+			<div class="row">
+                <h4 class="centered">Let's Connect</h4>
+                <h5 class="centered">Just a few questions to get to know you better.</h5>
+                <div id="form">
+                    <form action="php/newMail.php" method="post" class="mail-form has-validation-callback">
+                        <div class="row">
+                            <input name="firstname" type="text" class="form-control" placeholder="Name" data-validation="required">
+                        </div>
+                        <div class="row">
+                            <input name="email" type="text" class="form-control" placeholder="Email" data-validation="email">
+                        </div>
+                        <div class="row">
+                            <div class="radio">
+                                <input id="radio-1" name="goal" type="radio" checked>
+                                <label for="radio-1" class="radio-label">Buying</label>
+                                <input id="radio-2" name="goal" type="radio">
+                                <label  for="radio-2" class="radio-label">Selling</label>
+                                <input id="radio-3" name="goal" type="radio">
+                                <label for="radio-3" class="radio-label">Both</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <textarea rows="4" cols="2" name="additional" class="form-control" placeholder="Anything else you'd like us to know..."></textarea>
+                        </div>
+                        <div class="row centered">
+                            <input type="submit" class="btn" value="Send">
+                        </div>
+                    </form>
+                </div>
+			</div>
+		</div><!--/container-->
+	</div><!--/blk section -->
+      
+    <div class="notification-box"><span>Sending...</span></div>
+    <div class="mobile-nav">
+        <ul class="menu">
+
+        </ul>
+    </div>
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.onepagenav.js"></script>
+    <script src="js/core.js"></script>
+    <script src="js/tooltip.js"></script>
+    <script src="js/jquery.form-validator.js"></script>
+    <script src="js/preloader.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
       
     <!-- ********** CREDITS ********** -->
 	<div id="c">
